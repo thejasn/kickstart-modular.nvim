@@ -1,8 +1,8 @@
 return {
-  'selimacerbas/markdown-preview.nvim',
-  dependencies = { 'selimacerbas/live-server.nvim' },
+  'selimacerbas/mdkite.nvim',
+  dependencies = { 'selimacerbas/kitehost.nvim' },
   config = function()
-    require('markdown_preview').setup {
+    require('mdkite').setup {
       -- all optional; sane defaults shown
       port = 8421,
       open_browser = true,
